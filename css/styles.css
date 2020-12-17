@@ -1,4 +1,64 @@
+html {
+  box-sizing: border-box;
+}
+
 body {
-  background-color: #fff;
   color: #2a2a2a;
+}
+
+.container {
+  width: 1200px;
+  background-color: cornsilk;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 30px;
+}
+
+.flowers {
+  border: 5px solid palevioletred;
+  display: block;
+}
+
+.blok-image1 {
+  display: flex;
+  border: 1px solid royalblue;
+  background-color: rgb(167, 217, 236);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: auto;
+  padding-left: auto;
+  justify-content: center;
+}
+
+.title {
+  margin-top: 0;
+}
+
+.blok-image2 {
+  background-image: url(../css/planeta.jpg);
+  height: 800px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 1px solid saddlebrown;
+}
+
+.blok-image2 .title,
+.blok-image2 .paragraf {
+  color: burlywood;
+}
+.blok {
+  width: 600px;
+  height: 300px;
+  border: 3px solid palevioletred;
+  background-image: linear-gradient(
+    180deg,
+    #e8e8e8 4.55%,
+    #ffffff 4.55%,
+    #ffffff 50%,
+    #e8e8e8 50%,
+    #e8e8e8 54.55%,
+    #ffffff 54.55%,
+    #ffffff 100%
+  );
+  background-size: 44px 44px;
 }
